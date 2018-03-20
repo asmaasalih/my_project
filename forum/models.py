@@ -2,9 +2,10 @@ class Member:
 	def __init__(self, name , age):
 		self.name = name
 		self.age=age
+	
 
 	def __str__(self):
-		return "name:{} ,age: {}".format(self.name,self.age)
+		return "name:{} ,age: {},id:{}".format(self.name,self.age,self.id)
 
 
 
