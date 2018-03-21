@@ -13,6 +13,7 @@ class Post:
 	def __init__(self , title , content):
 		self.title = title
 		self.content = content
+		self.id=0
 
 	def __str__(self):
 		return "post title:{},\n post content:{} ".format(self.title,self.content)
